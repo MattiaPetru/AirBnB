@@ -6,3 +6,51 @@
     Group n. 6
 */
 
+#secondLogo {
+    width: 100px;
+}
+
+.menu i {
+    color: #696969;
+    font-size: 2.0rem; 
+}
+
+.selected i {
+    font-size: 2.0rem;
+    color: #FF385C;
+    margin-left: 20px;
+}
+
+.button-content {
+    margin-top: 20px;
+}
+
+.button-content button {
+    border: 1px solid #696969;
+}
+
+.button-content button:hover {
+    border: 1px solid #696969;
+    background-color: #EBEBEB;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.card-body small i {
+    color: #FF385C;
+    margin-right: 5px;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.12);
+}
+
+
