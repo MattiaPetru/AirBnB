@@ -74,3 +74,20 @@ body {
 #searchSection {
   width: 600px;
 }
+
+.content-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.card-img {
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img {
+  border-radius: 15px;
+}
