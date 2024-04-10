@@ -38,19 +38,30 @@ body {
 #ricerca {
   background-color: white;
   border-radius: 50px;
-  padding: 18px;
-  max-width: 750px;
-  max-height: 90px;
+  padding: 15px;
+  max-width: 800px;
+  max-height: 80px;
+  font-size: 13px;
+  font-weight: bold;
 }
 #btnSearch {
   background-color: rgb(229, 34, 90);
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  margin-bottom: 25px;
 }
 
 .bi-search {
   color: white;
+}
+
+.form-control {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(154, 154, 154);
+  overflow: auto;
+  padding: 4px;
 }
 
 #fotoPrincipale {
