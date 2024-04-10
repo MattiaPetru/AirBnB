@@ -6,6 +6,12 @@
     Group n. 6
 */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /* Navbar */
 #secondLogo {
   width: 100px;
@@ -18,7 +24,7 @@
 }
 
 .menu:hover {
-  box-shadow: 5px 5px 10px 0px #A1A1A1;
+  box-shadow: 5px 5px 10px 0px #a1a1a1;
   /* background-color: #EBEBEB; */
 }
 
@@ -28,8 +34,8 @@
 }
 
 .selected i {
-  font-size: 2.0rem;
-  color: #FF5A5E;
+  font-size: 2rem;
+  color: #ff5a5e;
   margin-left: 20px;
 }
 
@@ -54,7 +60,36 @@
 /* End Footer */
 
 #immagine {
+  border: 1px solid red;
   width: 100%;
   height: 100%;
   /* height: 270px; */
+}
+
+.icone {
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+.sezioneForm {
+  max-width: 325px;
+}
+#partenza {
+  border: 1px solid black;
+  border-bottom: 0;
+  border-radius: 15px 0 0 0;
+}
+#ritorno {
+  border: 1px solid black;
+  border-bottom: 0;
+  border-radius: 0 15px 0 0;
+}
+#guest {
+  border: 1px solid black;
+  border-radius: 0 0 15px 15px;
+}
+
+.bordo {
+  border-radius: 15px;
+  box-shadow: 6px 7px 20px 7px #a1a1a1;
 }
