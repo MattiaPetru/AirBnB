@@ -41,8 +41,14 @@ body {
 .dropdown svg {
   cursor: pointer;
 }
+
+.menu-header ul li a {
+  font-size: 0.8rem;
+}
+
 /* End Navbar */
 
+/* Search */
 .search {
   background-color: #fff;
   border-radius: 50px;
@@ -50,6 +56,7 @@ body {
   max-height: 90px;
   padding: 5px 35px 5px 35px;
 }
+
 #btnSearch {
     background-color: rgb(229, 34, 90);
     border-radius: 50%;
@@ -64,6 +71,7 @@ body {
 .bi-search {
   color: white;
 }
+/* End Search */
 
 .form-control {
   font-size: 14px;
@@ -106,17 +114,6 @@ body {
   margin-top: 100px;
 }
 
-/* .card-img {
-  max-width: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-img img {
-  border-radius: 15px;
-} */
-
 /* Footer */
 .menu-footer,
 .menu-socials {
@@ -131,3 +128,110 @@ body {
     cursor: pointer;
 }
 /* End Footer */
+
+/* View Mobile */
+@media (max-width: 450px) {
+  /* Search */
+  .search {
+    background-color: #000;
+    border-radius: 50px;
+    max-width: 850px;
+    max-height: 90px;
+    padding: 5px 35px 5px 35px;
+  }
+
+  .form-label {
+    color: #fff;
+  }
+  
+  #location,
+  #check-in,
+  #Check-out,
+  #guests {
+    padding: 10px;
+  }
+
+  #btnSearch {
+    margin-top: 20px;
+    width: 120px;
+    border-radius: 15px;
+  }
+  /* end */
+
+  .menu-header ul li a {
+    font-size: 0.8rem;
+  }
+
+  #text-host {
+    font-size: 0.8rem;
+  }
+
+  /* Section Hero */
+  .hero {
+    display: flex;
+    justify-content: start;
+    height: 650px;
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  }
+
+  #text-near {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 0;
+    max-width: 100px;
+    font-size: 110px;
+  }
+
+  .hero button {
+    margin-left: 0;
+  }
+
+  .content-img {
+    margin-top: 40px;
+  }
+}
+
+/* View Tablet and  */
+@media (min-width: 451px) and (max-width: 1439px) {
+  .search {
+    margin-top: 25px;
+    /* background-color: #000;
+    border-radius: 50px;
+    max-width: 850px;
+    max-height: 90px;
+    padding: 5px 35px 5px 35px; */
+  }
+
+  .hero {
+    display: flex;
+    justify-content: start;
+    height: 650px;
+    /* height: 650px; */
+    background-image: url("../assets/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+  }
+
+  #text-near {
+    display: inline-block;
+    margin-top: 4px;
+    margin-left: 170px;
+    max-width: 100px;
+    font-size: 110px;
+  }
+
+  .hero button {
+    margin-left: 170px;
+  }
+
+  .content-img {
+    margin-top: -40px;
+  }
+  
+}
+
+

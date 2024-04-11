@@ -59,11 +59,55 @@
 }
 /* End Footer */
 
-#immagine {
+.contenitore {
+  border: 2px solid blue;
+}
+
+.content-img {
+  height: 544px;
+}
+
+.immagine {
   border: 1px solid red;
-  width: 100%;
-  height: 100%;
+  max-width: 240px;
+  max-height: 240px;
   /* height: 270px; */
+}
+
+.img-airbnb-1 {
+  width: 100%;
+  min-height: calc(544px / 2);
+  border: 2px solid blue;
+  background-image: url("../assets/2.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-airbnb-2 {
+  width: 100%;
+  min-height: calc(544px / 2);
+  border: 2px solid blue;
+  background-image: url("../assets/3.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-airbnb-3 {
+  width: 100%;
+  min-height: calc(544px / 2);
+  border: 2px solid blue;
+  background-image: url("../assets/4.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-airbnb-4 {
+  width: 100%;
+  min-height: calc(544px / 2);
+  border: 2px solid blue;
+  background-image: url("../assets/5.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .icone {
