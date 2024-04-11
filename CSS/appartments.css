@@ -40,6 +40,10 @@
 
 /* Main */
 
+/* End Main */
+.main {
+    margin-top: 90px;    
+}
 /* Section Hero */
 .button-content {
     margin-top: 20px;
@@ -76,10 +80,18 @@
     opacity: 0.8;
     box-shadow: 5px 5px 10px 0px #A1A1A1;
 }
+
+.content-card a {
+    text-decoration: none;
+}
 /* End Section Card */
 /* End Main */
 
 /* Footer */
+footer {
+    text-align: center;
+}
+
 .menu-footer,
 .menu-socials {
     margin-right: 15px;
@@ -96,7 +108,7 @@
 
 
 /* View Tablet and Desktop */
-@media (min-width: 992px) {
+@media (min-width: 1439px) {
 
     .button-content {
         margin-top: 20px;
@@ -120,5 +132,9 @@
         cursor: pointer;
         transform: scale(1.12);
         box-shadow: 5px 5px 10px 0px #A1A1A1;
+    }
+
+    footer {
+        text-align: start;
     }
 }

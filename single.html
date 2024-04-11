@@ -28,7 +28,7 @@
 
 <body>
   <!-- Header -->
-  <header class="ms-5 me-5">
+  <header class="container">
     <div class="d-flex flex-nowrap justify-content-between align-items-center">
       <!-- Logo -->
       <div>
@@ -48,7 +48,7 @@
         </div>
         <!-- Menu Dropdown -->
         <div class="menu">
-          <a href="#" class="d-block link-body-emphasis text-decoration-none " data-bs-toggle="dropdown"
+          <a href="#" class="d-block link-body-emphasis text-decoration-none" data-bs-toggle="dropdown"
             aria-expanded="false">
             <i class="bi bi-list"></i>
             <i class="bi bi-person-circle"></i>
@@ -70,7 +70,7 @@
   </header>
   <!-- End Header -->
 
-  <!-- Main -->
+  <!-- Hero -->
   <div class="container">
     <p class="fw-bold ">Blarmor Home</p>
     <div class="d-flex justify-content-between ">
@@ -112,11 +112,12 @@
       </div>
     </div>
   </div>
-  <!-- End Main -->
+  <!-- End Hero -->
 
+  <!-- Main -->
   <section class="container mt-5">
     <h3>House - Host: Erica</h3>
-    <small>3 rooms . perfect place to visit Loch ness and go looking for Nessie.</small>
+    <small>3 rooms • perfect place to visit Loch ness and go looking for Nessie.</small>
     <p>Show host details</p>
     <div class="row">
       <div class="col-8">
@@ -169,10 +170,9 @@
             <p class="text-secondary ">It's forbidden to host oarties, bring animals and smoke.</p>
           </div>
         </div>
-
       </div>
 
-      <!-- Form prenotazione -->
+      <!-- Form Prenotazione -->
       <div class="col-4 bordo h-75">
         <div class="d-flex justify-content-between align-items-baseline">
           <div class="dates">
@@ -189,7 +189,6 @@
                 <input type="date" class="form-control" id="partenza">
                 <input type="date" class="form-control" id="ritorno">
               </div>
-
             </div>
             <div class=" mb-3">
               <input type="text" class="form-control" id="guest" placeholder="Guest">
@@ -198,9 +197,10 @@
           </div>
         </form>
       </div>
-      <!-- End form Prenotazioni -->
+      <!-- End Form Prenotazioni -->
     </div>
   </section>
+  <!-- End Main -->
 
   <!-- Form Review -->
   <section class="container">
@@ -213,18 +213,17 @@
         <div class="col-6">
           <label for="inputRating" class="form-label">Rating</label>
           <select class="form-select" aria-label="selectRating">
-            <option value="1" selected>😊</option>
-            <option value="2">**</option>
-            <option value="3">***</option>
-            <option value="4">****</option>
-            <option value="5">*****</option>
+            <option value="1" selected>★</option>
+            <option value="2">★★</option>
+            <option value="3">★★★</option>
+            <option value="4">★★★★</option>
+            <option value="5">★★★★★</option>
           </select>
         </div>
         <div class="col-12">
           <label for="textarea" class="form-label">Review</label>
           <textarea class="form-control" id="textarea" rows="5"></textarea>
         </div>
-
       </div>
     </div>
   </section>
