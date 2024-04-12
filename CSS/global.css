@@ -11,6 +11,10 @@
 #firstLogo {
     width: 100px;
   }
+
+  #secondLogo {
+    width: 100px;
+}
   
   .menu {
     border: 1px solid #69696962;
@@ -32,6 +36,10 @@
     font-size: 2rem;
     color: #ff5a5e;
     margin-left: 20px;
+  }
+
+  .selected i:hover {
+    cursor: pointer;
   }
   
   .dropdown svg {
