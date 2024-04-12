@@ -39,8 +39,6 @@
 /* End Navbar */
 
 /* Main */
-
-/* End Main */
 .main {
     margin-top: 90px;    
 }
@@ -86,25 +84,6 @@
 }
 /* End Section Card */
 /* End Main */
-
-/* Footer */
-footer {
-    text-align: center;
-}
-
-.menu-footer,
-.menu-socials {
-    margin-right: 15px;
-}
-
-.menu-socials i {
-    font-size: 1.2rem;
-}
-
-.menu-socials i {
-    cursor: pointer;
-}
-/* End Footer */
 
 
 /* View Tablet and Desktop */

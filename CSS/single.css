@@ -1,6 +1,6 @@
 /* 
     CSS Custom
-    appartaments.html
+    single.html
 
     BuildWeek n.2
     Group n. 6
@@ -19,7 +19,6 @@
 
 .menu:hover {
   box-shadow: 5px 5px 10px 0px #a1a1a1;
-  /* background-color: #EBEBEB; */
 }
 
 .menu i {
@@ -196,21 +195,6 @@
   box-shadow: 6px 7px 20px 7px #a1a1a1;
 }
 /* End Form Review */
-
-/* Footer */
-.menu-footer,
-.menu-socials {
-  margin-right: 15px;
-}
-
-.menu-socials i {
-  font-size: 1.2rem;
-}
-
-.menu-socials i {
-  cursor: pointer;
-}
-/* End Footer */
 
 /* View Mobile */
 @media (max-width: 450px) {
