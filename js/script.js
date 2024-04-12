@@ -48,6 +48,8 @@ const traduci = {
     "Where are you going?": "Cerca destinazioni",
     "Add guests": "Aggiungi ospiti",
     "Explore nearvy stays": "Esplora i soggiorni ",
+    "drive": "in auto",
+    "flight": "di volo",
 }
 
 // Inizializzo la variabile e asseggno la clsse ".dropdown-item" del menu a tendina 
@@ -65,6 +67,8 @@ const menuSearch = document.querySelectorAll(".menuSearch");
 //const menuForm = document.querySelectorAll(".form-control");
 // Button explore
 const btnExplore = document.getElementById("btnExplore");
+
+const auto = document.querySelectorAll(".time");
 
 
 
@@ -96,11 +100,13 @@ lenguage.addEventListener("click", function() {
         // Richiamo la funzione traduci button explore 
         traduciBtnExplore(traduci);
 
+        // Richiamo la funzione traduci card 
+        traduciTime(traduci);
+
         // Traduzione placeholder
         document.getElementById("location").placeholder = "Cerca destinazioni";
         document.getElementById("guests").placeholder = "Aggiungi ospiti";
         
-
     } else {
         window.location.href = "index.html";
         // lenguage.textContent = "English (GB)";
@@ -195,13 +201,32 @@ function traduciMenuSearch(traduci) {
     }
 };
 
+// Funzione traduci menu card
+function traduciTime() {
+    for (let i = 0; i < auto.length; i++) {
+        if (auto[i].textContent.includes("drive")) {
+            let autoT = auto[i].textContent.split(" ");
+            autoT[2] = " in auto";
+            let autoN = autoT.join(); 
+            //console.log(autoN); 
+            auto[i].textContent = autoN;
+        } else {
+            let voloT = auto[i].textContent.split(" ");
+            voloT[2] = " in volo";
+            let voloN = voloT.join(); 
+            //console.log(voloN); 
+            auto[i].textContent = voloN;
+        }
+    }
+};
+
 function traduciBtnExplore(traduci) {
     for (let v in traduci) {
         if (btnExplore.textContent === v) {
             btnExplore.textContent = traduci[v];
         }
     }
-}
+};
 
 
 
