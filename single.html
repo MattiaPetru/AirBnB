@@ -37,7 +37,7 @@
         </a>
       </div>
       <div class="dropdown text-end d-flex justify-content-center align-items-center">
-        <span>Become a host</span>
+        <a href="#" class="nav-link px-2" id="text-host">Become a host</a>
         <div class="m-4">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" aria-hidden="true" role="presentation"
             focusable="false" style="display: block; height: 20px; width: 20px; fill: #000;">
@@ -72,12 +72,12 @@
 
   <!-- Hero -->
   <div class="container">
-    <p class="fw-bold ">Blarmor Home</p>
-    <div class="d-flex justify-content-between ">
+    <p class="fw-bold">Blarmor Home</p>
+    <div class="d-flex justify-content-between">
       <div>
         <p><span class="fw-bold">4</span>, 6 ratings • Inverness</p>
       </div>
-      <div>
+      <div class="icons">
         <i class="bi bi-cloud-upload"></i><span> Share</span>
         <i class="bi bi-heart"></i> <span> Save</span>
       </div>
@@ -86,12 +86,12 @@
     <!-- Image Location -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-8">
+        <div class="col-12 col-xl-8">
           <div class="img-location"></div>
         </div>
 
         <!-- Image small Location -->
-        <div class="col-4 content-img">
+        <div class="col-12 col-xl-4 content-img">
           <div class="row">
             <div class="col-6 pb-4">
               <div class="img-airbnb img-airbnb-1"></div>
@@ -120,7 +120,7 @@
     <small>3 rooms • perfect place to visit Loch ness and go looking for Nessie.</small>
     <p>Show host details</p>
     <div class="row">
-      <div class="col-8">
+      <div class="col-12 col-xl-8">
         <div class="d-flex align-items-center">
           <div class="icone">
             <i class="bi bi-house-door"></i>
@@ -137,7 +137,7 @@
           </div>
           <div class="mt-5">
             <h5>Advanced Cleaning Methods</h5>
-            <p class="text-secondary ">The host is committing to our 5-step cleaning process.</p>
+            <p class="text-secondary">The host is committing to our 5-step cleaning process.</p>
           </div>
         </div>
 
@@ -167,13 +167,13 @@
           </div>
           <div class="mt-5">
             <h5>Rules Of The House</h5>
-            <p class="text-secondary ">It's forbidden to host oarties, bring animals and smoke.</p>
+            <p class="text-secondary">It's forbidden to host oarties, bring animals and smoke.</p>
           </div>
         </div>
       </div>
 
       <!-- Form Prenotazione -->
-      <div class="col-4 bordo h-75">
+      <div class="col-12 col-xl-4 bordo h-75 formPrenotazioni">
         <div class="d-flex justify-content-between align-items-baseline">
           <div class="dates">
             Add dates to see the prices
@@ -191,7 +191,7 @@
               </div>
             </div>
             <div class=" mb-3">
-              <input type="text" class="form-control" id="guest" placeholder="Guest">
+              <input type="text" class="form-control focus-ring secondary-focus" id="guest" placeholder="Guest">
             </div>
             <button id="btn-cancel" class="w-100 btn btn-lg" type="submit">Cancel Booking</button>
           </div>
@@ -206,13 +206,13 @@
   <section class="container">
     <div class="form-review">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-xl-6">
           <label for="inputName" class="form-label">Name</label>
           <input type="text" class="form-control" id="inputName" placeholder="Enter Name">
         </div>
-        <div class="col-6">
+        <div class="col-12 col-xl-6">
           <label for="inputRating" class="form-label">Rating</label>
-          <select class="form-select" aria-label="selectRating">
+          <select class="form-select" id="inputRating" aria-label="selectRating">
             <option value="1" selected>★</option>
             <option value="2">★★</option>
             <option value="3">★★★</option>
@@ -233,7 +233,7 @@
   <section class="container">
     <div class="review-content">
       <div class="row d-flex">
-        <div class="col-6">
+        <div class="col-12 col-xl-6">
           <div class="card-img d-flex">
             <div class="me-2">
               <img id="img-review" src="./assets/propic.png" alt="Image user">
@@ -249,7 +249,7 @@
           </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-12 col-xl-6">
           <div class="card-img d-flex">
             <div class="me-2">
               <img id="img-review" src="./assets/propic.png" alt="Image user">
@@ -392,3 +392,5 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
+
+</html>
